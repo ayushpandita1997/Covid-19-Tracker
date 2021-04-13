@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.container {
+    margin: 20px 180px;
+    /* margin: 50px 0; */
+}
+
+.card {
+    margin: 0 20px !important;
+}
+
+.confirmed {
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+
+.active {
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+
+.deceased {
+    border-bottom: 10px solid rgba(108,122,137,1);
+}
+
+
+.fontType {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: medium;
+    font-weight: 600 !important;
+}
+
+.newCasesFont{
+    font-size: x-small !important;
+    font-weight: 400 !important;
+    font-size: smaller !important;
+    margin-top: 20px !important;
+}
