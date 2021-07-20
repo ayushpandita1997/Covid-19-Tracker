@@ -33,7 +33,7 @@ export const fetchData = async () => {
             dailyDeceased: api2Dataa.deathsNew,
             totalConfirmed: api2Dataa.totalCases,
             lastUpdatedAtApify: api2Dataa.lastUpdatedAtApify,
-            dailyConfirmed: cases_time_series[476].dailyconfirmed
+            dailyConfirmed: cases_time_series[536].dailyconfirmed
         }
 
 

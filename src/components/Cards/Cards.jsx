@@ -30,7 +30,7 @@ const Cards = (props) => {
                         {/* <Typography variant="h5">
             <CountUp  className="fontType" start={0} end={Number(props.data.dailyActive)} duration={1.5} separator="," />
         </Typography> */}
-                        <Typography className="fontType newCasesFont" color="textSecondary"><span class="material-icons plus-icon"> add </span>{props.data.dailyActive}</Typography>
+                        <Typography className="fontType newCasesFont" color="textSecondary">{props.data.dailyActive}</Typography>
 
                         <Typography className="fontType" color="textSecondary">{props.data.totalActive}</Typography>
                     </CardContent>
